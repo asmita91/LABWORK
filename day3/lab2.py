@@ -4,7 +4,7 @@ sub2=float(input("enter the marks of english::"))
 sub3=float(input("enter the marks of nepali::"))
 sub4=float(input("enter the marks of science::"))
 total=sub1+sub2+sub3+sub4
-per=((total/4))
+per=float((total/4))
 print(f"the total marks obtained is {total} and percentage secured is {per}")
 if(per>70):
     print("you secured distinction")
